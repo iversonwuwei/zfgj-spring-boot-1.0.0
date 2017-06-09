@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.housecenter.dlfc.framework.starter.data.mybatis:dlfc-framework-starter-data-mybatis:0.0.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/starter/data/mybatis/dlfc-framework-starter-data-mybatis/0.0.3-SNAPSHOT/dlfc-framework-starter-data-mybatis-0.0.3-20170419.072433-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/starter/data/mybatis/dlfc-framework-starter-data-mybatis/0.0.3-SNAPSHOT/dlfc-framework-starter-data-mybatis-0.0.3-20170419.072433-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/starter/data/mybatis/dlfc-framework-starter-data-mybatis/0.0.3-SNAPSHOT/dlfc-framework-starter-data-mybatis-0.0.3-20170419.072433-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

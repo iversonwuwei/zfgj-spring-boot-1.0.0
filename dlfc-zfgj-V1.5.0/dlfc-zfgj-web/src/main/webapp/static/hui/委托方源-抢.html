@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>添加管理员</title>
+</head>
+<body>
+
+<div class="form form-horizontal pd-20">
+  
+    <div class="responsive">
+      <div class="row cl">
+        <div class="form_text col-4"><p class="house_name"><a href="#">锦绣路8号 2#203</a><span class="label label-primary">产权</span></p></div>
+        <div class="form_text col-3"><p>沙河口区 锦绣</p></div>
+        <div class="form_text col-2">整租</div>
+        <div class="form_text col-3"><p><strong class="c-orange f-16">1500</strong>&nbsp;元/月</p></div>
+      </div>
+      <div class="row cl">
+      <div class="panel panel-default">
+      	<div class="panel-body">
+     	<span class="f-24 mr-30"><strong>13890000000</strong></span>
+      	<span class="f-18"><strong>王先生</strong></span>
+        </div>
+      </div>
+      </div>
+      
+      <div class="row cl">
+        <label class="form-label col-3">验房时间：</label>
+        <div class="formControls col-3">
+          <input type="text" onfocus="WdatePicker()" id="datemin" class="input-text Wdate">
+        </div>
+        <p class="form_text">至</p>
+        <div class="formControls col-3">
+        <span class="select-box">
+          <select class="select" size="1" name="demo1">
+            <option value="" selected>00:00</option>
+            <option value="1">11:00</option>
+            <option value="2">12:00</option>
+            <option value="3">13:00</option>
+          </select>
+          </span></div>
+      </div>
+      <div class="row cl">
+       <label class="form-label col-3">备注：</label>
+        <div class="formControls col-7">
+          <textarea name="" cols="" rows="" placeholder="说点什么..." class="textarea"></textarea>
+          <div class="check-box" style="padding-left:0;">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">对方可见</label>
+            </div>
+        </div>
+      </div>
+    </div> 
+    <div class="responsive">
+      <div class="row cl btn_group">
+        <div class="col-6 col-offset-4"> <a class="btn btn-primary radius mr-10">预约验房</a> <a class="btn btn-default radius mr-10">取消</a> </div>
+      </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script> 
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.config.js"></script> 
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.all.min.js"> </script> 
+<script type="text/javascript" src="lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script> 
+<script type="text/javascript" src="lib/My97DatePicker/WdatePicker.js"></script> 
+<script type="text/javascript" src="lib/layer/1.9.3/layer.js"></script> 
+<script type="text/javascript" src="js/H-ui.js"></script> 
+<script type="text/javascript" src="js/H-ui.admin.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	var ue = UE.getEditor('editor');
+	
+	
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.housecenter.dlfc.common:dlfc-common:0.0.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/common/dlfc-common/0.0.3-SNAPSHOT/dlfc-common-0.0.3-20170517.072417-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/common/dlfc-common/0.0.3-SNAPSHOT/dlfc-common-0.0.3-20170517.072417-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/common/dlfc-common/0.0.3-SNAPSHOT/dlfc-common-0.0.3-20170517.072417-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

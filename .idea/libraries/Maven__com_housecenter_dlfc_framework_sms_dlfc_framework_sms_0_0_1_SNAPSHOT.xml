@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.housecenter.dlfc.framework.sms:dlfc-framework-sms:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/sms/dlfc-framework-sms/0.0.1-SNAPSHOT/dlfc-framework-sms-0.0.1-20170315.032527-4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/sms/dlfc-framework-sms/0.0.1-SNAPSHOT/dlfc-framework-sms-0.0.1-20170315.032527-4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/sms/dlfc-framework-sms/0.0.1-SNAPSHOT/dlfc-framework-sms-0.0.1-20170315.032527-4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

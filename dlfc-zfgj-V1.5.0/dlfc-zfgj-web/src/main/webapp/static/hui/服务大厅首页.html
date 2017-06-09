@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>添加管理员</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 房源管理 <span class="c-gray en">&gt;</span> 新建房源<a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="pd-20">
+  <form action="" method="post" class="form form-horizontal" id="form-admin-add">
+    
+    <div class="responsive mb-40">
+      <div class="row cl">
+        <label class="form-label col-3">合同编号：</label>
+        <div class="formControls col-6">
+          <input type="text" placeholder="请输入合同编号.." class="input-text">
+        </div>
+        <div class="formControls col-3">
+        <a href="#" class="btn btn-primary">搜索</a>
+        </div>
+      </div>
+    
+    
+    
+    
+    </div>
+    <div class="responsive">
+      <div class="row cl ">
+       <table class="table table-border table-bordered service-tab table-bg">
+        <tr class="text-l">
+          <td class="hoser_info" colspan="5"><div class=" cl">     
+              <div class="col-4"> 合同编号：20192948557</div>
+              <div class="col-3">合同状态：<span class="label label-success">已生效</span></div>
+               <div class="col-5">起止时间：<span>2015-12-12</span> 至 <span>2015-12-12</span></div>
+            </div></td>
+        </tr>
+        <tr>
+          <td class="text-l" width="140"><p><span class="label label-danger mr-5">出租</span> 章翠华</p>
+          	<p><span class="label label-danger mr-5">承租</span>欧阳撒啊</p>	
+          </td>
+          <td><p>身份证：21021119920225154</p>
+            <p>身份证：21021119920225154</p></td>
+          <td width="240"><strong>大连市甘井子区张前路525好1-a-a-a-</strong></td>
+          
+          <td width="120" class="text-c">
+          <p class="f-14">&yen; 1500</p>
+          <p><span class="label label-danger">监管</span></p>
+          </td>
+          <td class="text-c" width="100"><p><a href="#" class="btn btn-primary">分配押金</a></p><p><a class="btn btn-default ">解约</a></p></td>
+        </tr> 
+
+    </table>
+      </div>
+    </div>
+  </form>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script> 
+<script type="text/javascript" src="lib/Validform/5.3.2/Validform.min.js"></script> 
+<script type="text/javascript" src="lib/layer/1.9.3/layer.js"></script> 
+<script type="text/javascript" src="js/H-ui.js"></script> 
+<script type="text/javascript" src="js/H-ui.admin.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	$("#form-admin-add").Validform({
+		tiptype:2,
+		callback:function(form){
+			form[0].submit();
+			var index = parent.layer.getFrameIndex(window.name);
+			parent.$('.btn-refresh').click();
+			parent.layer.close(index);
+		}
+	});
+});
+</script>
+</body>
+</html>

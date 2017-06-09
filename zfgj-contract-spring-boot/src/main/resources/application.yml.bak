@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/clear
+    username: root
+    password: rd123456
+
+upload:
+  path: ~/uploadFile
+
+mybatis:
+  mapper-locations: classpath*:mappings/*.xml
+
+server:
+  port: 8086

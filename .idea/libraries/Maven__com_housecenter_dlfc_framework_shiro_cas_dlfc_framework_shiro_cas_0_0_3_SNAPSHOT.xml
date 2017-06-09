@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.housecenter.dlfc.framework.shiro.cas:dlfc-framework-shiro-cas:0.0.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/shiro/cas/dlfc-framework-shiro-cas/0.0.3-SNAPSHOT/dlfc-framework-shiro-cas-0.0.3-20170512.072856-9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/shiro/cas/dlfc-framework-shiro-cas/0.0.3-SNAPSHOT/dlfc-framework-shiro-cas-0.0.3-20170512.072856-9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/shiro/cas/dlfc-framework-shiro-cas/0.0.3-SNAPSHOT/dlfc-framework-shiro-cas-0.0.3-20170512.072856-9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

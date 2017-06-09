@@ -1,0 +1,481 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>添加管理员</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 房源管理 <span class="c-gray en">&gt;</span> 新建房源<a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div id="123">
+  <form action="" method="post" class="form form-horizontal" id="form-admin-add">
+    <legend>出租意向</legend>
+    <div class="responsive">
+      <div class="row cl skin-minimal">
+        <label class="form-label col-3"><span class="c-red">*</span>出租意向：</label>
+        <div class="formControls  col-6">
+          <div class="radio-box">
+    <input type="radio" id="radio-1" name="demo-radio1">
+    <label for="radio-1">普通住宅</label>
+  		  </div>
+          
+            <div class="radio-box">
+    <input type="radio" id="radio-1" name="demo-radio1">
+    <label for="radio-1">别墅</label>
+  </div>
+      </div>
+      </div>
+      <div class="row cl skin-minimal">
+        <label class="form-label col-3"><span class="c-red">*</span>出租方式：</label>
+        <div class="formControls col-6">
+          <div class="radio-box">
+    <input type="radio" id="radio-1" name="demo-radio1">
+    <label for="radio-1">整组</label>
+  		  </div>
+          
+            <div class="radio-box">
+    <input type="radio" id="radio-1" name="demo-radio1">
+    <label for="radio-1">分租</label>
+  </div>
+      </div>
+      </div>
+      <legend>基本信息</legend>
+      
+      
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>小区名称：</label>
+        <div class="formControls col-3">
+          <input type="text" class="input-text ">
+        </div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>小区名称：</label>
+        <div class="formControls col-2">
+          <span class="select-box">
+          <select name="demo1" size="1" class="select">
+            <option selected="" value="">2</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span>
+        </div>
+        <div class="formControls col-3">
+          <span class="select-box">
+          <select name="demo1" size="1" class="select">
+            <option selected="" value="">2</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span>
+        </div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>楼号：</label>
+        <div class="formControls col-1">
+          <input type="text" placeholder="" class="input-text">
+        </div>
+        <p class="form_text">号楼/栋</p>
+        <div class="formControls col-1">
+          <input type="text" placeholder="" class="input-text">
+        </div>
+        <p class="form_text">单元</p>
+        <div class="formControls col-1">
+          <input type="text" placeholder="" class="input-text">
+        </div>
+        <p class="form_text">室</p>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>楼层：</label>
+        <div class="formControls col-1">
+          <input type="text" placeholder="" class="input-text">
+        </div>
+        <p class="form_text">层，</p>
+        <p class="form_text">共</p>
+        <div class="formControls col-1">
+          <input type="text" placeholder="" class="input-text">
+        </div>
+        <p class="form_text">层</p>
+		<p class="form_text c-999 f-12">(楼栋号不对外显示)</p>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>建筑时间：</label>
+        <div class="formControls col-2">
+          <span class="select-box">
+          <select name="demo1" size="1" class="select">
+            <option selected="" value="">2</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span>
+        </div>
+
+      </div>
+      <div class="row">
+      <div class="line"></div>
+      </div>
+      
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>户型：</label>
+        <div class="formControls col-1">
+          <input type="text" placeholder="" class="input-text">
+        </div>
+        <p class="form_text">室</p>
+        <div class="formControls col-1">
+          <input type="text" placeholder="" class="input-text">
+        </div>
+        <p class="form_text">厅</p>
+        <div class="formControls col-1">
+          <input type="text" placeholder="" class="input-text">
+        </div>
+        <p class="form_text">卫</p>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>户型朝向：</label>
+        <div class="formControls col-2">
+          <span class="select-box">
+          <select name="demo1" size="1" class="select">
+            <option selected="" value="">2</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span>
+        </div>
+
+      </div>
+      <div class="row cl skin-minimal">
+        <label class="form-label col-3"><span class="c-red">*</span>装修：</label>
+        <div class="formControls col-6">
+          <div class="radio-box">
+    <input type="radio" id="radio-1" name="demo-radio1">
+    <label for="radio-1">精装修</label>
+  		  </div>
+          
+            <div class="radio-box">
+    <input type="radio" id="radio-1" name="demo-radio1">
+    <label for="radio-1">简单装修</label>
+  </div>
+  <div class="radio-box">
+    <input type="radio" id="radio-1" name="demo-radio1">
+    <label for="radio-1">毛坯</label>
+  </div>
+      </div>
+      </div>
+      <div class="row cl skin-minimal">
+        <label class="form-label col-3"><span class="c-red">*</span>装修时间	：</label>
+        <div class="formControls col-8">
+          <div class="radio-box">
+    <input type="radio" id="radio-1" name="demo-radio1">
+    <label for="radio-1">一年以内</label>
+  		  </div>
+          
+            <div class="radio-box">
+    <input type="radio" id="radio-1" name="demo-radio1">
+    <label for="radio-1">五年以内</label>
+  </div>
+  <div class="radio-box">
+    <input type="radio" id="radio-1" name="demo-radio1">
+    <label for="radio-1">5-10年</label>
+  </div>
+  <div class="radio-box">
+    <input type="radio" id="radio-1" name="demo-radio1">
+    <label for="radio-1">10年以上</label>
+  </div>
+      </div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>房屋设施：</label>
+        <div class="formControls col-6">
+          <div class="skin-minimal">
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">床</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">衣柜</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">沙发</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">书桌</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">宽带</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">暖气</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>配套家电：</label>
+        <div class="formControls col-6">
+          <div class="skin-minimal">
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">水费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">电费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">煤气费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row">
+      <div class="line"></div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>房源特色：</label>
+        <div class="formControls col-8">
+          <div class="skin-minimal">
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">水费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">电费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">煤气费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>周边环境：</label>
+        <div class="formControls col-8">
+          <div class="skin-minimal">
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">水费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">电费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">煤气费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>居住要求：</label>
+        <div class="formControls col-8">
+          <div class="skin-minimal">
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">水费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">电费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">煤气费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>房屋图片：</label>
+               <div class="formControls col-3">
+          	<a href="#" class="upload_img_btn"><i class="Hui-iconfont">&#xe600;</i><p class="">上传图片</p></a>
+        </div>    
+      </div>
+      <div class="row cl">
+        <div class="formControls col-3"></div>
+               <div class="formControls col-3">
+          <input type="text" placeholder="证件编号" class="input-text" name="email" id="email" datatype="e" nullmsg="请输入邮箱！" >
+        </div>  
+      </div>
+      <div class="row cl">
+        <div class="formControls col-3"></div>
+               <div class="formControls col-3">
+          <input type="text" placeholder="证件编号" class="input-text" name="email" id="email" datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>房屋图片：</label>
+               <div class="formControls col-6">
+          <script id="editor" type="text/plain" style="width:100%;height:400px;"></script>
+        </div>    
+      </div>
+    </div>
+    
+    <legend>房间信息</legend>
+        <div class="panel panel-default mt-20">
+    	<div class="panel-header">面板标题</div>
+    	<div class="panel-body">
+         <div class="row cl">
+        <label class="form-label col-2">出租房间：</label>
+               <div class="formControls col-3">
+          <input type="text" placeholder="证件编号" class="input-text" name="email" id="email" datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+        </div>
+        <div class="row cl">
+        <label class="form-label col-2">房间租金：</label>
+               <div class="formControls col-2">
+          <input type="text" placeholder="证件编号" class="input-text" name="email" id="email" datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+        <p class="form_text">元/月</p>
+        <div class="formControls col-2">
+        <span class="select-box">
+          <select name="demo1" size="1" class="select">
+            <option selected="" value="">2</option>
+            <option value="1">押一付三</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span>
+          </div>
+          <label class="form-label col-3"><span class="c-red">*</span>合同起止：</label>
+        <div class="formControls col-2">
+          <input type="text" onfocus="WdatePicker()" id="datemin" class="input-text Wdate">
+        </div>
+        </div>
+        <div class="row cl">
+        <label class="form-label col-2">出租面积：</label>
+               <div class="formControls col-3">
+          <input type="text" placeholder="" class="input-text" >
+        </div>
+        <p class="form_text">平方米</p>
+        </div>
+        <div class="row cl">
+        <label class="form-label col-2">房间特色：</label>
+               <div class="formControls skin-minimal col-6">
+          <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">设施齐全</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">采光好</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">朝南</label>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+   
+      </div>
+    <div class="row cl">
+    <a href="#" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i>添加房间</a>
+    </div>
+    <div class="responsive">
+      <div class="row cl btn_group">
+        <div class="col-6 col-offset-4"> <a class="btn btn-primary radius mr-10">提交</a> <a class="btn btn-default radius mr-10">取消</a> </div>
+      </div>
+    </div>
+  </form>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script> 
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.config.js"></script> 
+<script type="text/javascript" src="lib/ueditor/1.4.3/ueditor.all.min.js"> </script> 
+<script type="text/javascript" src="lib/ueditor/1.4.3/lang/zh-cn/zh-cn.js"></script> 
+<script type="text/javascript" src="lib/My97DatePicker/WdatePicker.js"></script> 
+<script type="text/javascript" src="lib/layer/1.9.3/layer.js"></script> 
+<script type="text/javascript" src="js/H-ui.js"></script> 
+<script type="text/javascript" src="js/H-ui.admin.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	var ue = UE.getEditor('editor');
+	
+	
+});
+</script>
+</body>
+</html>

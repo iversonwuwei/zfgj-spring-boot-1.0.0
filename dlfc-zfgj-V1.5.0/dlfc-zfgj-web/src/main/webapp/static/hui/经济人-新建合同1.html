@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="lib/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+<link href="lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>添加管理员</title>
+</head>
+<body>
+<div class="five steps mb-20"> <span class="step">合同信息</span> <span class="active step">合同条款</span> <span class="disabled step">双方责任</span> <span class="disabled step">确认提交</span> <span class="disabled step">提交成功</span></div>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 房源管理 <span class="c-gray en">&gt;</span> 新建房源<a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="pd-20">
+
+  <form action="" method="post" class="form form-horizontal" id="form-admin-add">
+    <legend>出租方：</legend>
+    <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>姓名：</label>
+        <div class="formControls col-3">
+          <input type="text" placeholder="证件编号" class="input-text">
+        </div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>身份证件：</label>
+        <div class="formControls col-2"> <span class="select-box">
+          <select class="select" size="1" name="demo1">
+            <option value="" selected>默认select</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span> </div>
+        <div class="formControls col-3">
+          <input type="text" placeholder="证件编号" class="input-text" name="email" id="email" datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+        <div class="formControls col-2"> <a href="#" class="btn btn-primary radius">查询</a></div>
+      </div>
+    </div>
+   
+    <div class="panel panel-default mb-30 mt-20">
+      <div class="panel-header">&nbsp;</div>
+      <div class="panel-body">
+        <div class="responsive">
+        <div class="row cl">
+            <label class="form-label col-3"><span class="c-red">*</span>手机：</label>
+            <div class="formControls col-3">
+              <input type="text" placeholder="证件编号" class="input-text">
+            </div>
+          </div>
+          <div class="row cl">
+            <label class="form-label col-3"><span class="c-red">*</span>开卡银行	：</label>
+            <div class="formControls col-4"> <span class="select-box">
+              <select class="select" size="1" name="demo1">
+                <option value="" selected>默认select</option>
+                <option value="1">菜单一</option>
+                <option value="2">菜单二</option>
+                <option value="3">菜单三</option>
+              </select>
+              </span> </div>
+          </div>
+          <div class="row cl">
+            <label class="form-label col-3"><span class="c-red">*</span>银行卡号：</label>
+            <div class="formControls col-4">
+              <input type="text" placeholder="证件编号" class="input-text">
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="responsive">
+    <div class="row cl">
+    	<label class="form-label col-2"></label>
+    	<div class="formControls">
+        <div class="radio-box">
+    <input type="radio" id="radio-2" name="demo-radio1" checked>
+    <label for="radio-2">本人签约</label>
+  </div>
+  <div class="radio-box">
+    <input type="radio" id="radio-2" name="demo-radio1" checked>
+    <label for="radio-2">代理人签约</label>
+  </div>
+        </div>
+    </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>姓名：</label>
+        <div class="formControls col-3">
+          <input type="text" placeholder="证件编号" class="input-text">
+        </div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>身份证件：</label>
+        <div class="formControls col-2"> <span class="select-box">
+          <select class="select" size="1" name="demo1">
+            <option value="" selected>默认select</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span> </div>
+        <div class="formControls col-3">
+          <input type="text" placeholder="证件编号" class="input-text" name="email" id="email" datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>上传证件图片：</label>
+        <div class="formControls col-3">
+          <a href="images/img_bg_grey.png" class="upload-contract fancybox"><img src="images/img_bg_grey.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    
+    <legend>求租方</legend>
+        <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>姓名：</label>
+        <div class="formControls col-3">
+          <input type="text" placeholder="证件编号" class="input-text">
+        </div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>身份证件：</label>
+        <div class="formControls col-2"> <span class="select-box">
+          <select class="select" size="1" name="demo1">
+            <option value="" selected>默认select</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span> </div>
+        <div class="formControls col-3">
+          <input type="text" placeholder="证件编号" class="input-text" name="email" id="email" datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default mb-30 mt-20">
+      <div class="panel-header">&nbsp;</div>
+      <div class="panel-body">
+        <div class="responsive">
+        <div class="row cl">
+            <label class="form-label col-3"><span class="c-red">*</span>手机：</label>
+            <div class="formControls col-3">
+              <input type="text" placeholder="证件编号" class="input-text">
+            </div>
+          </div>
+          <div class="row cl">
+            <label class="form-label col-3"><span class="c-red">*</span>开卡银行	：</label>
+            <div class="formControls col-4"> <span class="select-box">
+              <select class="select" size="1" name="demo1">
+                <option value="" selected>默认select</option>
+                <option value="1">菜单一</option>
+                <option value="2">菜单二</option>
+                <option value="3">菜单三</option>
+              </select>
+              </span> </div>
+          </div>
+          <div class="row cl">
+            <label class="form-label col-3"><span class="c-red">*</span>银行卡号：</label>
+            <div class="formControls col-4">
+              <input type="text" placeholder="证件编号" class="input-text">
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="panel panel-default mb-30 mt-20">
+      <div class="panel-header">&nbsp;</div>
+      <div class="panel-body">
+        <div class="responsive">
+        <div class="row cl">
+            <label class="form-label col-3"><span class="c-red">*</span>手机：</label>
+            <div class="form_text col-3">
+              18525315421
+            </div>
+          </div>
+          <div class="row cl">
+            <label class="form-label col-3"><span class="c-red">*</span>开卡银行	：</label>
+            <div class="form_text col-4">
+              大连市中山区二七广场二七支行
+            </div>
+          </div>
+          <div class="row cl">
+            <label class="form-label col-3"><span class="c-red">*</span>银行卡号：</label>
+             <div class="form_text col-4">
+              6222025455815458745
+            </div>
+            <div class="form_text text-r col-3"><a href="#" class="btn btn-link">修改银行卡</a></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div class="row cl btn_group">
+      <div class="col-9 col-offset-3"> <a class="btn btn-primary radius">保存</a> <a class="btn btn-primary radius">下一步</a> </div>
+    </div>
+  </form>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script> 
+
+<script type="text/javascript" src="lib/layer/1.9.3/layer.js"></script> 
+<script type="text/javascript" src="lib/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="js/H-ui.js"></script> 
+<script type="text/javascript" src="js/H-ui.admin.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	$("#form-admin-add").Validform({
+		tiptype:2,
+		callback:function(form){
+			form[0].submit();
+			var index = parent.layer.getFrameIndex(window.name);
+			parent.$('.btn-refresh').click();
+			parent.layer.close(index);
+		}
+	});
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.housecenter.Qrcode:QRCode:1.0-dlfc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/Qrcode/QRCode/1.0-dlfc/QRCode-1.0-dlfc.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/Qrcode/QRCode/1.0-dlfc/QRCode-1.0-dlfc-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/Qrcode/QRCode/1.0-dlfc/QRCode-1.0-dlfc-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

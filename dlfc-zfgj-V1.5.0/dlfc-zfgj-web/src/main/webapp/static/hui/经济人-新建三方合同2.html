@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>添加管理员</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 租房合同 <span class="c-gray en">&gt;</span> 新建三方合同<a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="pd-20">
+  <form action="" method="post" class="form form-horizontal" id="form-admin-add">
+
+    <legend>租赁期限</legend>
+    <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>租赁期限：</label>
+        <div class="formControls col-1"><span class="select-box">
+          <select class="select" size="1" name="demo1">
+            <option value="" selected>2</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span> </div>
+        <p class="form_text">年</p>
+        <div class="formControls col-1"> <span class="select-box">
+          <select class="select" size="1" name="demo1">
+            <option value="" selected>默认select</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span> </div>
+        <p class="form_text">个月</p>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>合同起止：</label>
+        <div class="formControls col-2">
+          <input type="text" onfocus="WdatePicker()" id="datemin" class="input-text Wdate">
+        </div>
+        <p class="form_text">至</p>
+        <div class="formControls col-3"> <strong>2016-09-15</strong> </div>
+      </div>
+    </div>
+    <legend>租赁标的</legend>
+    <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-2"><span class="c-red">*</span>出租方式：</label>
+        <div class="formControls col-3">
+          <div class="radio-box skin-minimal">
+            <input type="radio"  name="demo-radio1" checked>
+            <label for="radio-2">整组</label>
+          </div>
+          <div class="radio-box skin-minimal">
+            <input type="radio"  name="demo-radio1" checked>
+            <label for="radio-2">部分</label>
+          </div>
+        </div>
+        <label class="form-label col-2"><span class="c-red">*</span>租赁用途：</label>
+        <div class="formControls col-3">
+          <div class="radio-box skin-minimal">
+            <input type="radio"  name="demo-radio1" checked>
+            <label for="radio-2">住宅</label>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="responsive">
+    <div class="row cl">
+        <label class="form-label col-2"><span class="c-red">*</span>房屋地址：</label>
+        <div class="formControls col-6">
+          <input type="text" placeholder="证件编号" class="input-text" name="email"  datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+
+      </div>
+      <div class="row cl">
+        <label class="form-label col-2"><span class="c-red">*</span>结构：</label>
+        <div class="formControls col-2">
+          <input type="text" placeholder="证件编号" class="input-text" name="email"  datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+
+      </div>
+      <div class="row cl">
+        <label class="form-label col-2"><span class="c-red">*</span>权属：</label>
+        <div class="formControls col-2">
+          <input type="text" placeholder="证件编号" class="input-text" name="email"  datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+
+      </div>
+      <div class="row cl">
+        <label class="form-label col-2"><span class="c-red">*</span>证号：</label>
+        <div class="formControls col-3">
+          <input type="text" placeholder="证件编号" class="input-text" name="email"  datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+
+      </div>
+      <div class="row cl">
+        <label class="form-label col-2"><span class="c-red">*</span>出租区域：</label>
+        <div class="formControls col-3">
+          <input type="text" placeholder="证件编号" class="input-text" name="email"  datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+
+      </div>
+      <div class="row cl">
+        <label class="form-label col-2"><span class="c-red">*</span>建筑面积：</label>
+        <div class="formControls col-1">
+          <input type="text" placeholder="证件编号" class="input-text" name="email"  datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+        <div class="form_text">平方米</div>
+
+      </div>
+      <div class="row cl">
+        <label class="form-label col-2"><span class="c-red">*</span>出租面积：</label>
+        <div class="formControls col-1">
+          <input type="text" placeholder="证件编号" class="input-text" name="email"  datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+        <div class="form_text">平方米</div>
+        <div class="form_text c-999">（剩余可租面积：40平方米）</div>
+      </div>
+    </div>
+    
+    <legend>房屋所有权人</legend>
+    <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>使用人数：</label>
+        <div class="formControls col-2"> <span class="select-box">
+          <select class="select" size="1" name="demo1">
+            <option value="" selected>默认select</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span> </div>
+          <div class="form_text c-999">（最多可添加4人）</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="row cl">
+        
+        <div class="formControls col-1-1">
+          <div class="panel panel-primary mb-30 mt-20">
+            <div class="panel-header">所有人1</div>
+            <div class="panel-body">
+              <div class="responsive">
+                <div class="row cl">
+                  <label class="form-label col-3"><span class="c-red">*</span>姓名	：</label>
+                  <div class="formControls col-2">
+                    <input type="text" placeholder="证件编号" class="input-text"name="email"  datatype="e34" nullmsg="请输入邮箱！">
+                  </div>
+                </div>
+              </div>
+              <div class="responsive">
+                <div class="row cl">
+                  <label class="form-label col-3"><span class="c-red">*</span>证件号：</label>
+                  <div class="formControls col-2"> <span class="select-box">
+                    <select class="select" size="1" name="demo1">
+                      <option value="" selected>默认select</option>
+                      <option value="1">菜单一</option>
+                      <option value="2">菜单二</option>
+                      <option value="3">菜单三</option>
+                    </select>
+                    </span> </div>
+                  <div class="formControls col-3">
+                    <input type="text" placeholder="证件编号" class="input-text" name="email"  datatype="e23" nullmsg="请输入邮箱！">
+                  </div>
+                </div>
+              </div>
+              <div class="responsive">
+                <div class="row cl">
+                  <label class="form-label col-3"><span class="c-red">*</span>手机：</label>
+                  <div class="formControls col-2">
+                    <input type="text" placeholder="证件编号" class="input-text" name="email"  datatype="e" nullmsg="请输入邮箱！">
+                  </div>
+                  <div class="formControls col-3"> </div>
+                  <div class="formControls col-2"><span class="label label-default">未认证</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <legend>实际使用者</legend>
+    <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>使用人数：</label>
+        <div class="formControls col-2"> <span class="select-box">
+          <select class="select" size="1" name="demo1">
+            <option value="" selected>默认select</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span> </div>
+          <div class="form_text c-999">（最多可添加10人）</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="row cl">
+        
+        <div class="formControls col-1-1">
+          <div class="panel panel-primary mb-30 mt-20">
+            <div class="panel-header">使用者1</div>
+            <div class="panel-body">
+              <div class="responsive">
+                <div class="row cl">
+                  <label class="form-label col-3"><span class="c-red">*</span>姓名	：</label>
+                  <div class="formControls col-2">
+                    <input type="text" placeholder="证件编号" class="input-text"name="email"  datatype="e34" nullmsg="请输入邮箱！">
+                  </div>
+                </div>
+              </div>
+              <div class="responsive">
+                <div class="row cl">
+                  <label class="form-label col-3"><span class="c-red">*</span>证件号：</label>
+                  <div class="formControls col-2"> <span class="select-box">
+                    <select class="select" size="1" name="demo1">
+                      <option value="" selected>默认select</option>
+                      <option value="1">菜单一</option>
+                      <option value="2">菜单二</option>
+                      <option value="3">菜单三</option>
+                    </select>
+                    </span> </div>
+                  <div class="formControls col-3">
+                    <input type="text" placeholder="证件编号" class="input-text" name="email"  datatype="e23" nullmsg="请输入邮箱！">
+                  </div>
+                </div>
+              </div>
+              <div class="responsive">
+                <div class="row cl">
+                  <label class="form-label col-3"><span class="c-red">*</span>手机：</label>
+                  <div class="formControls col-2">
+                    <input type="text" placeholder="证件编号" class="input-text" name="email"  datatype="e" nullmsg="请输入邮箱！">
+                  </div>
+                  <div class="formControls col-3"> </div>
+                  <div class="formControls col-2"><span class="label label-default">未认证</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row cl btn_group">
+      <div class="col-9 col-offset-3"> <a class="btn btn-default radius">上一步</a> <a class="btn btn-primary radius">下一步</a> </div>
+    </div>
+  </form>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script> 
+<script type="text/javascript" src="lib/Validform/5.3.2/Validform.min.js"></script> 
+<script type="text/javascript" src="lib/My97DatePicker/WdatePicker.js"></script> 
+<script type="text/javascript" src="lib/layer/1.9.3/layer.js"></script> 
+<script type="text/javascript" src="js/H-ui.js"></script> 
+<script type="text/javascript" src="js/H-ui.admin.js"></script> 
+<script type="text/javascript" src="js/jquery-migrate-1.1.0.min.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	$("#form-admin-add").Validform({
+		tiptype:2,
+		callback:function(form){
+			form[0].submit();
+			var index = parent.layer.getFrameIndex(window.name);
+			parent.$('.btn-refresh').click();
+			parent.layer.close(index);
+		}
+	});
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dlfc-zfgj:war exploded">
+    <output-path>$PROJECT_DIR$/dlfc-zfgj-V1.5.0/target/dlfc-zfgj</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dlfc-zfgj" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/dlfc-zfgj-V1.5.0/target/dlfc-zfgj/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="dlfc-zfgj/web/Web" />
+    </root>
+  </artifact>
+</component>

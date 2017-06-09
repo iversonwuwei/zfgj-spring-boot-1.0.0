@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>添加管理员</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 房源管理 <span class="c-gray en">&gt;</span> 新建房源<a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div id="123">
+  <form action="" method="post" class="form form-horizontal" id="form-admin-add">
+    <legend>修改合同</legend>
+    <div class="responsive">
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>租赁期限：</label>
+        <div class="formControls col-1"><span class="select-box">
+          <select class="select" size="1" name="demo1">
+            <option value="" selected>2</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span> </div>
+        <p class="form_text">年</p>
+        <div class="formControls col-1"> <span class="select-box">
+          <select class="select" size="1" name="demo1">
+            <option value="" selected>默认select</option>
+            <option value="1">菜单一</option>
+            <option value="2">菜单二</option>
+            <option value="3">菜单三</option>
+          </select>
+          </span> </div>
+        <p class="form_text">个月</p>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>合同起止：</label>
+        <div class="formControls col-2">
+          <input type="text" onfocus="WdatePicker()" id="datemin" class="input-text Wdate">
+        </div>
+        <p class="form_text">至</p>
+        <div class="formControls col-3"> <strong>2016-09-15</strong> </div>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>月租金：</label>
+        <div class="formControls col-1">
+          <input type="text" placeholder="证件编号" class="input-text">
+        </div>
+        <p class="form_text">元</p>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>房客承担：</label>
+        <div class="formControls col-6">
+          <div class="skin-minimal">
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">水费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">电费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">煤气费</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+            <div class="check-box">
+              <input type="checkbox" id="checkbox-1">
+              <label for="checkbox-1">复选框</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row cl">
+        <div class="formControls col-3"></div>
+        <p class="form_text">其他</p>
+        <div class="formControls col-2">
+          <input type="text" placeholder="证件编号" class="input-text" name="email" id="email" datatype="e" nullmsg="请输入邮箱！" >
+        </div>
+        <p class="form_text c-999">（除以上约定的费用外，在租住过程中发生费用都由房主承担）</p>
+      </div>
+      <div class="row cl">
+        <label class="form-label col-3"><span class="c-red">*</span>履约保证金：</label>
+        <div class="formControls col-1">
+          <input type="text" placeholder="证件编号" class="input-text">
+        </div>
+        <p class="form_text">元</p>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="row cl btn_group">
+        <div class="col-6 col-offset-4"> <a class="btn btn-primary radius mr-10">提交</a> <a class="btn btn-default radius mr-10">取消</a> </div>
+      </div>
+    </div>
+  </form>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script> 
+<script type="text/javascript" src="lib/Validform/5.3.2/Validform.min.js"></script> 
+<script type="text/javascript" src="lib/layer/1.9.3/layer.js"></script> 
+<script type="text/javascript" src="js/H-ui.js"></script> 
+<script type="text/javascript" src="js/H-ui.admin.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	$("#form-admin-add").Validform({
+		tiptype:2,
+		callback:function(form){
+			form[0].submit();
+			var index = parent.layer.getFrameIndex(window.name);
+			parent.$('.btn-refresh').click();
+			parent.layer.close(index);
+		}
+	});
+});
+</script>
+</body>
+</html>

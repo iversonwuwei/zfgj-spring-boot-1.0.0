@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>添加管理员</title>
+</head>
+<body>
+<div class="index_head cl">
+  <div class="container">
+    <p class="head_logo l"><img src="images/head_logo.png" width="185" height="34"></p>
+    <p class="head_tel r"><i class="ico_tel"></i>客服电话：400-8288-628</p>
+  </div>
+</div>
+<div class="content_body">
+  <div class="container cl">
+    <div class="index_login">
+      <p class="login_box_til">欢迎登录</p>
+      <div class="login_box">
+        <div class="login_box_bg">
+          <div class="login_box_min">
+            <div id="login_tabs" class="HuiTab">
+              <div class="tabBar cl"><span class="hui-animation" data-tra="hui-flipoutY">经纪人登录<i class="arrow_top"></i></span><span>公司用户登录<i class="arrow_top"></i></span></div>
+               <div class="tabCon">
+                <div class="Huialert Huialert-danger "><i class="Hui-iconfont">&#xe6a6;</i>危险状态提示危险状态提示危险状态提示危险状态提示</div>
+                <div class="login_item">
+                <span class="form_icon"><i class="Hui-iconfont">&#xe60d;</i></span>
+                <input type="text" class="login_text" placeholder="用户名/手机号码/邮箱">
+                </div>
+                <div class="login_item">
+                <span class="form_icon"><i class="Hui-iconfont">&#xe60e;</i></span>
+                <input type="password" class="login_text" placeholder="请输入密码">
+                </div>
+                <div class="login_item">
+                <span class="form_icon"><i class="Hui-iconfont">&#xe63f;</i></span>
+                <input type="text" class="login_text login_yzm" placeholder="验证码">	<span><img src="images/yanzhengma.png" width="76" height="28" alt=""></span><a href="#" class="btn-link ml-5">换一张</a>
+                </div>
+                <div class="login_item cl">
+                <div class="skin-minimal l">
+  <div class="check-box">
+    <input type="checkbox" id="checkbox-1">
+    <label for="checkbox-1">记住我</label>
+  </div>
+  </div>
+  <p class="r"><a class="btn-link" href="#">忘记密码？</a></p>
+                </div>
+                
+                <div class="login_item">
+                <a href="#" class="btn btn-block btn-primary radius">立即登录</a>
+                </div>
+                <div class="login_item">
+                <p class="text-r">还没有账号吗？ <a href="#" class="btn-link">立即注册</a></p>
+                </div> 
+              </div>
+              <div class="tabCon manager_login">
+                <div class="Huialert Huialert-danger "><i class="Hui-iconfont">&#xe6a6;</i>提示危险状态提示危险状态提示危险状态提示</div>
+                <div class="login_item">
+                <span class="form_icon"><i class="Hui-iconfont">&#xe60d;</i></span>
+                <input type="text" class="login_text" placeholder="用户名/手机号码/邮箱">
+                </div>
+                <div class="login_item">
+                <span class="form_icon"><i class="Hui-iconfont">&#xe60e;</i></span>
+                <input type="password" class="login_text" placeholder="请输入密码">
+                </div>
+                <div class="login_item">
+                <span class="form_icon"><i class="Hui-iconfont">&#xe63f;</i></span>
+                <input type="text" class="login_text login_yzm" placeholder="验证码">	<span><img src="images/yanzhengma.png" width="76" height="28" alt=""></span><a href="#" class="btn-link ml-5">换一张</a>
+                </div>
+                 <div class="login_item">
+                <a href="#" class="btn btn-block btn-primary radius">立即登录</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+		<div class="foot_link container">
+        <a href="#">大连市房屋租赁公共服务平台 </a>|<a href="#">中介crm系统操作平台</a>|<a href="#">大连租房合同管理平台版权所有 2004-2015</a>
+
+        </div>
+        
+    </div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script> 
+
+<script type="text/javascript" src="lib/layer/1.9.3/layer.js"></script> 
+<script type="text/javascript" src="js/H-ui.js"></script> 
+<script type="text/javascript" src="js/H-ui.admin.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	$.Huitab("#login_tabs .tabBar span","#login_tabs .tabCon","current","click","0");
+	
+});
+</script>
+</body>
+</html>

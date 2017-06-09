@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dlfc-zfgj-core" />
+        <module name="dlfc-zfgj-sign" />
+        <module name="dlfc-zfgj-web" />
+        <module name="zfgj-contract-spring-boot" />
+        <module name="zfgj-house-spring-boot" />
+        <module name="zfgj-security-mobile-spring-boot" />
+        <module name="zfgj-security-spring-boot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dlfc-zfgj" target="1.7" />
+      <module name="dlfc-zfgj-core" target="1.7" />
+      <module name="dlfc-zfgj-sign" target="1.7" />
+      <module name="dlfc-zfgj-web" target="1.7" />
+      <module name="zfgj-admin-spring-boot" target="1.8" />
+      <module name="zfgj-contract-spring-boot" target="1.7" />
+      <module name="zfgj-house-spring-boot" target="1.7" />
+      <module name="zfgj-security-mobile-spring-boot" target="1.7" />
+      <module name="zfgj-security-spring-boot" target="1.7" />
+      <module name="zfgj-spring-boot" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

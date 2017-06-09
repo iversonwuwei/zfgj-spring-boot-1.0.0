@@ -1,0 +1,223 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="lib/Hui-iconfont/1.0.1/iconfont.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="lib/zTree/v3/css/zTreeStyle/zTreeStyle.css" type="text/css">
+<!--[if IE 6]>
+<script type="text/javascript" src="http://lib.h-ui.net/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>产品分类</title>
+</head>
+<body>
+<form action="" method="post" class="form form-horizontal" id="form-admin-add">
+  <div class="responsive">
+    <div class="row cl">
+      <label class="form-label col-3">归属公司</label>
+      <div class="formControls col-4">
+        <input type="text" style="width:85%" class="input-text" value="" placeholder="" id="" name="">
+        <a class="btn btn-success"><i class="Hui-iconfont">&#xe665;</i></a></div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3">归属部门</label>
+      <div class="formControls col-4">
+        <input type="text" style="width:85%" class="input-text" value="" placeholder="" id="" name="">
+        <a class="btn btn-success"><i class="Hui-iconfont">&#xe665;</i></a></div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>工号</label>
+      <div class="formControls col-4">
+        <input type="text" class="input-text" value="" placeholder="" id="" name="">
+      </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>姓名</label>
+      <div class="formControls col-4">
+        <input type="text" class="input-text" value="" placeholder="" id="" name="">
+      </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>登录名</label>
+      <div class="formControls col-4">
+        <input type="text" class="input-text" value="" placeholder="" id="" name="">
+      </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>密码</label>
+      <div class="formControls col-4">
+        <input type="password" class="input-text" value="" placeholder="" id="" name="">
+      </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>确认密码</label>
+      <div class="formControls col-4">
+        <input type="password" class="input-text" value="" placeholder="" id="" name="">
+      </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3">邮箱</label>
+      <div class="formControls col-4">
+        <input type="text" class="input-text" value="" placeholder="" id="" name="">
+      </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3">电话</label>
+      <div class="formControls col-4">
+        <input type="text" class="input-text" value="" placeholder="" id="" name="">
+      </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3">手机</label>
+      <div class="formControls col-4">
+        <input type="text" class="input-text" value="" placeholder="" id="" name="">
+      </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>是否允许登陆</label>
+      <div class="formControls col-1"> <span class="select-box">
+        <select class="select" size="1" name="demo1">
+          <option value="" selected>是</option>
+          <option value="1">否</option>
+        </select>
+        </span>
+        
+      </div>
+      <div class="formControls col-6">
+        <p class="form_text c-999">"是"代表此帐号允许登陆，"否"代表此帐号不允许登陆</p>
+      </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>用户类型</label>
+      <div class="formControls col-4"> <span class="select-box">
+        <select class="select" size="1" name="demo1">
+          <option value="" selected>是</option>
+          <option value="1">否</option>
+        </select>
+        </span>
+        
+      </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>用户角色</label>
+      <div class="formControls col-4">
+        <div class="skin-minimal">
+          <div class="check-box">
+            <input type="checkbox" id="checkbox-1">
+            <label for="checkbox-1">本公司管理员</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3">备注</label>
+      <div class="formControls col-4">
+        <textarea placeholder="说点什么..." class="textarea" rows="" cols="" name=""></textarea>
+      </div>
+    </div>
+    <div class="row cl btn_group">
+      <div class="col-9 col-offset-3"> <a class="btn btn-primary radius">保 存</a> <a class="btn btn-default radius">返 回</a> </div>
+    </div>
+  </div>
+</form>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script> 
+<script type="text/javascript" src="lib/layer/1.9.3/layer.js"></script> 
+<script type="text/javascript" src="lib/zTree/v3/js/jquery.ztree.all-3.5.min.js"></script> 
+<script type="text/javascript" src="lib/icheck/jquery.icheck.min.js"></script> 
+<script type="text/javascript" src="js/H-ui.js"></script> 
+<script type="text/javascript" src="js/H-ui.admin.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	
+	$("#form-admin-add").Validform({
+		tiptype:2,
+		callback:function(form){
+			form[0].submit();
+			var index = parent.layer.getFrameIndex(window.name);
+			parent.$('.btn-refresh').click();
+			parent.layer.close(index);
+		}
+	});
+});
+</script> 
+<script type="text/javascript">
+
+
+var setting = {
+	view: {
+		dblClickExpand: false,
+		showLine: false,
+		selectedMulti: false
+	},
+	data: {
+		simpleData: {
+			enable:true,
+			idKey: "id",
+			pIdKey: "pId",
+			rootPId: ""
+		}
+	},
+	callback: {
+		beforeClick: function(treeId, treeNode) {
+			var zTree = $.fn.zTree.getZTreeObj("tree");
+			if (treeNode.isParent) {
+				zTree.expandNode(treeNode);
+				return false;
+			} else {
+				demoIframe.attr("src",treeNode.file + ".html");
+				return true;
+			}
+		}
+	}
+};
+
+var zNodes =[
+	{ id:1, pId:0, name:"一级分类", open:true},
+	{ id:11, pId:1, name:"二级分类"},
+	{ id:111, pId:11, name:"三级分类"},
+	{ id:112, pId:11, name:"三级分类"},
+	{ id:113, pId:11, name:"三级分类"},
+	{ id:114, pId:11, name:"三级分类"},
+	{ id:115, pId:11, name:"三级分类"},
+	{ id:12, pId:1, name:"二级分类 1-2"},
+	{ id:121, pId:12, name:"三级分类 1-2-1"},
+	{ id:122, pId:12, name:"三级分类 1-2-2"},
+];
+		
+var code;
+		
+function showCode(str) {
+	if (!code) code = $("#code");
+	code.empty();
+	code.append("<li>"+str+"</li>");
+}
+		
+$(document).ready(function(){
+	var t = $("#treeDemo");
+	t = $.fn.zTree.init(t, setting, zNodes);
+	demoIframe = $("#testIframe");
+	demoIframe.bind("load", loadReady);
+	var zTree = $.fn.zTree.getZTreeObj("tree");
+	zTree.selectNode(zTree.getNodeByParam("id",'11'));
+});
+</script>
+</body>
+</html>

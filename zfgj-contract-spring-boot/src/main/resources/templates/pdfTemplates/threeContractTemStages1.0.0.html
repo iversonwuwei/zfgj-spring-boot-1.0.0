@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <title>大连市房屋租赁管理有限公司</title>
+    <style type="text/css">
+        body {
+            font-family: SimSun;
+            margin: 0;
+            padding: 0;
+            background: url(${imagePath}contract-logo.png) repeat 0 0;
+            word-break: break-all;
+        }
+
+        table {
+            border: 1px solid #000;
+            border-spacing: 0
+        }
+
+        table tr th, table tr td {
+            border: 1px solid #000;
+            padding: 2px;
+            text-align: center;
+        }
+
+        table.borded-none {
+            border: 0;
+        }
+
+        table.borded-none tr th, table tr td {
+            border: 0;
+            font-size: 10px;
+        }
+
+        .cl:after, .clearfix:after {
+            content: "\20";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden
+        }
+
+        .cl, .clearfix {
+            zoom: 1
+        }
+
+        p {
+            margin: 0;
+            margin-bottom: 2px;
+        }
+
+        .text-re {
+            position: relative;
+        }
+
+        .text-po {
+            position: absolute;
+            left: 1px;
+            top: -2px;
+        }
+    </style>
+</head>
+<body>
+<div style="line-height:12px; font-size:10px;width: 698px;height: 900px;position:relative">
+
+    <p style="font-weight:bold  margin-bottom:10px;">合同编号：<span class="text-re">_<span class="text-po">${no}</span>_______________________________</span>
+    </p>
+    <p style="text-align:center; font-size:14px; font-weight:bold;  margin-bottom:10px;">大连市房屋租赁合同 </p>
+    <p style="font-weight:bold; margin-top:3px;">出租方（以下称甲方）</p>
+    <p>姓名：<span class="text-re">_____<span class="text-po">${lessorName}</span>________</span> 有效身份证件：<span
+            class="text-re">_<span class="text-po">${lessorIdType}</span>___________</span> 证件号码：<span class="text-re">_<span
+            class="text-po">${lessorIdNo}</span>_____________________________</span> 邮箱：<span class="text-re">_<span
+            class="text-po">${lessorEmail!''}</span>____________________________________________</span></p>
+    <p>电话：<span class="text-re">_<span class="text-po">${lessorMobile}</span>____________</span> 备用联系人姓名：<span
+            class="text-re">_<span class="text-po">${lessorBakName!''}</span>_______________________</span> 电话：<span
+            class="text-re">_<span class="text-po">${lessorBakMobile!''}</span>_________________</span> 送达地址：<span
+            class="text-re">_<span class="text-po">${lessorAddress!''}</span>__________________________________________</span>
+    </p>
+    <p style="font-weight:bold; margin-top:3px;">承租方（以下称乙方）</p>
+    <p>姓名：<span class="text-re">_<span class="text-po">${lesseeName}</span>____________</span> 有效身份证件：<span
+            class="text-re">_<span class="text-po">${lesseeIdType}</span>___________</span> 证件号码：<span class="text-re">_<span
+            class="text-po">${lesseeIdNo}</span>_____________________________</span> 邮箱：<span class="text-re">__<span
+            class="text-po">${lesseeEmail!''}</span>___________________________________________</span></p>
+    <p>电话：<span class="text-re">_<span class="text-po">${lesseeMobile}</span>____________</span> 备用联系人姓名：<span
+            class="text-re">____<span class="text-po">${lesseeBakName!''}</span>____________________</span> 电话：<span
+            class="text-re">_<span class="text-po">${lesseeBakMobile!''}</span>_________________</span> 送达地址：<span
+            class="text-re">_<span class="text-po">${lesseeAddress!''}</span>__________________________________________</span>
+    </p>
+    <p style="font-weight:bold; margin-top:3px;">居间方（以下称丙方）：</p>
+    <p>公司名称：<span class="text-re">__<span class="text-po">${companyName}</span>__________________________________</span>
+        送达地址：<span class="text-re">__<span class="text-po">${companyAddress!''}</span>___________________________</span>
+        公司电话：<span class="text-re">____<span class="text-po">${companyTel!''}</span>______________________________________</span>
+    </p>
+    <p>经纪人姓名：<span class="text-re">___<span class="text-po">${manageName}</span>_______________________________</span>
+        证件号：<span class="text-re">___<span class="text-po">${manageIdNo}</span>____________________________</span> 个人电话：<span
+                class="text-re">__<span class="text-po">${manageMobile!''}</span>________________________________________</span>　
+    </p>
+    <p style="margin-top:3px; margin-bottom:10px; text-indent:2em;">
+        根据《中华人民共和国合同法》、《中华人民共和国城市房地产管理法》等法律规定，甲乙双方在丙方的居间促成下协商一致，签署本合同。本合同为大连市房屋租赁管理平台（以下简称平台）出具的大连市政府规定的统一合同文本。</p>
+    <p style="font-weight:bold; margin-top:3px;">一、租赁标的</p>
+    <p><span style="display:inline-block; text-indent:2em;">甲方通过丙方提供的居间服务</span>，将位于大连市<span class="text-re">_<span
+            class="text-po">${houseAddr!''}</span>_____________________________________</span>的房屋出租(以下简称“该房屋”)。该房屋的装修设施、家具设备，以及额外约定添置的电器设备等见附件一《房屋交割清单》，
+        结构：<span class="text-re">__<span class="text-po">${houseType!''}</span>____________</span>　,权属：<span
+                class="text-re">__<span class="text-po">${properType!''}</span>____________</span>，证号：<span
+                class="text-re">__<span class="text-po">${housePropertyIdNo!''}</span>__________________________</span>，建筑面积<span
+                class="text-re">__<span
+                class="text-po">${houseBuildingArea!''}</span>________</span>平方米，其中出租区域实际使用面积<span
+                class="text-re">__<span class="text-po">${leaseArea!''}</span>________</span>平方米，由乙方<span
+                class="text-re">__<span class="text-po">${lesseeCount!''}</span>____</span>人使用，租赁用途为<span
+                class="text-re">__<span class="text-po">${leasePurpose!''}</span>__________________</span>。房屋具体面积与地址以房产证及相关正式法律文书上的记载为准。
+    </p>
+    <p style="font-weight:bold; margin-top:3px;">二、房屋所有权人</p>
+    <div class="cl">
+        <#list houCoOwnerList as owner>
+            <#if owner_index%2 == 0>
+                <p style="float:left;">姓名:<span class="text-re">__<span
+                        class="text-po">${owner.name}</span>______</span> 证件:<span class="text-re">__<span
+                        class="text-po">${owner.idNo}</span>__<span class="text-po" style="left:95px;">(身份证)</span>___________________________</span>
+                    电话:<span class="text-re">__<span class="text-po"><#if owner_index == 0>${owner.phone}</#if></span>__________</span>
+                </p>
+            </#if>
+            <#if owner_index%2 == 1>
+                <p style="float:right;">姓名:<span class="text-re">__<span
+                        class="text-po">${owner.name}</span>______</span> 证件:<span class="text-re">__<span
+                        class="text-po">${owner.idNo}</span>__<span class="text-po" style="left:95px;">(身份证)</span>___________________________</span>
+                    电话:<span class="text-re">__<span class="text-po"><#if owner_index == 0>${owner.phone}</#if></span>__________</span>
+                </p>
+            </#if>
+        </#list>
+    </div>
+    <p style="font-weight:bold; margin-top:3px;">三、实际承租使用人信息</p>
+    <div class="cl">
+        <#list conHouseUserList as houseUser>
+            <#if houseUser_index%2 == 0>
+                <p style="float:left;">姓名:<span class="text-re">__<span
+                        class="text-po">${houseUser.name}</span>______</span> 证件:<span class="text-re">__<span
+                        class="text-po">${houseUser.idNo}</span>__<span class="text-po" style="left:95px;">(身份证)</span>___________________________</span>
+                    电话:<span class="text-re">__<span class="text-po">${houseUser.mobile}</span>__________</span></p>
+            </#if>
+            <#if houseUser_index%2 == 1>
+                <p style="float:right;">姓名:<span class="text-re">__<span class="text-po">${houseUser.name}</span>______</span>
+                    证件:<span class="text-re">__<span class="text-po">${houseUser.idNo}</span>__<span class="text-po"
+                                                                                                     style="left:95px;">(身份证)</span>___________________________</span>
+                    电话:<span class="text-re">__<span class="text-po">${houseUser.mobile}</span>__________</span></p>
+            </#if>
+        </#list>
+    </div>
+    <p style="font-weight:bold; margin-top:3px;">四、租赁期限</p>
+    <p>1.租期：<span class="text-re">___<span class="text-po">${leaseTermYear!''}</span>__________</span>年<span
+            class="text-re">_<span class="text-po">${leaseTermMonth!''}</span>_______</span>个月。自<span class="text-re">__<span
+            class="text-po">${year!''}</span>___________</span>年<span class="text-re">__<span class="text-po">${month!''}</span>_______</span>月<span
+            class="text-re">__<span class="text-po">${day!''}</span>_______</span>日起至<span class="text-re">__<span
+            class="text-po">${endYear!''}</span>___________</span>年<span class="text-re">__<span class="text-po">${endMonth!''}</span>_______</span>月<span
+            class="text-re">__<span class="text-po">${endDay!''}</span>_______</span>日止。</p>
+    <p>2.交付使用：甲方须在<span class="text-re">__<span class="text-po">${year!''}</span>___________</span>年<span
+            class="text-re">_<span class="text-po">${month!''}</span>_______</span>月<span class="text-re">__<span
+            class="text-po">${day!''}</span>______</span>日之前将房屋及室内附属设备（详见附件一《房屋交割清单》）交付乙方使用。《房屋交割清单》经甲乙双方交验签署并移交房门钥匙后视为交付完成。
+    </p>
+
+    <p style="font-weight:bold; margin-top:3px;">五、租金及费用</p>
+    <p>1.该房屋租金为（大写）<span class="text-re">__<span
+            class="text-po">${monthlyRentCN!''}</span>____________</span>/月人民币，（¥<span class="text-re">___<span
+            class="text-po">${monthlyRent!''}</span>______</span>元），乙方须在以下指定时间内将租金支付给甲方，以后交租金日期以此类推。</p>
+    <p>2.支付周期： <span class="text-re">__<span class="text-po">${settlementCycle!''}</span>___</span></p>
+    <#list settlementCycleList as settlementTime>
+        <#if settlementTime_index &lt; 4>
+            <p><span class="text-re">__<span class="text-po">${settlementTime.afterPayDateYYYY}</span>__</span>年<span
+                    class="text-re">_<span class="text-po">${settlementTime.afterPayDateMM}</span>_</span>月<span
+                    class="text-re">_<span class="text-po">${settlementTime.afterPayDateDD}</span>_</span>日前支付<span
+                    class="text-re">__<span class="text-po">${settlementTime.fromDateYYYY}</span>__</span>年<span
+                    class="text-re">_<span class="text-po">${settlementTime.fromDateMM}</span>_</span>月<span
+                    class="text-re">_<span class="text-po">${settlementTime.fromDateDD}</span>_</span>日至<span
+                    class="text-re">__<span class="text-po">${settlementTime.toDateYYYY}</span>__</span>年<span
+                    class="text-re">_<span class="text-po">${settlementTime.toDateMM}</span>_</span>月<span
+                    class="text-re">_<span class="text-po">${settlementTime.toDateDD}</span>_</span>日的租金，共计<span
+                    class="text-re">___<span class="text-po">${settlementTime.money}</span>______</span>元</p>
+        </#if>
+        <#if settlementCycleList?size &gt; 4 && settlementTime_index == settlementCycleList?size-1>
+            <#if settlementCycleList?size &gt; 5><p>......</p></#if>
+        </#if>
+    </#list>
+    <p> 3.费用承担：租赁期内产生的下列费用中，<span class="text-re">___<span
+            class="text-po">${ownerBear!''}</span>_____________________</span>由甲方承担，<span class="text-re">__<span
+            class="text-po">${lesseeBear!''}</span>______________________</span> 由乙方承担：(1)水费 (2)电费 (3)电话费 (4)电视收视费
+        (5)供暖费 (6)燃气费 (7)物业管理费 (8)房屋租赁税费 (9)卫生费 (10)上网费 (11)车位费(12)室内设施维修费<span class="text-re">__<span class="text-po">${ownerBearOther!''}</span>________</span>费用。
+    </p>
+    <p style="font-weight:bold; margin-top:3px;">六、押金规定</p>
+    <p>
+        1.押金用作乙方履行本合同约定义务的担保，合同期内或合同履行期届满，如乙方违反合同约定，甲方可从押金中抵扣应由乙方承担的租金、违约金、物品损坏赔偿金和相关欠费等，扣款数额由双方协商确认。合同期满，如出现押金不足以抵扣前述款项及费用时，乙方需在10日内补足。</p>
+    <p>2.押金数额为：（大写）<span class="text-re">___<span class="text-po">${depositAmtCN!''}</span>___________</span>(¥<span
+            class="text-re">_<span class="text-po">${depositAmt!''}</span>________</span>元)，乙方需在<span class="text-re">__<span
+            class="text-po">${year!''}</span>__</span>年<span class="text-re">_<span class="text-po">${month!''}</span>_</span>月<span
+            class="text-re">_<span class="text-po">${day!''}</span>_</span>日前按双方的约定交付。</p>
+    <p style="font-weight:bold; margin-top:3px;">七、居间服务费</p>
+    <p> 1.基于居间方已提供居间服务，甲方须于本合同签订当日，向丙方一次性交付居间服务费用人民币(大写)<span class="text-re">__<span
+            class="text-po">${agencyFeeCN!''}</span>____________</span> （¥<span class="text-re">__<span class="text-po">${agencyFee!''}</span>_______</span>元）。
+    </p>
+    <p style="font-weight:bold; margin-top:3px;">八、甲乙丙三方确认的附加条款</p>
+    <p>1.签约当日甲方提供的证件原件有：</p>
+    <p>${lessorIds!''} ${lessorIdsOther!''}</p>
+    <p>2.签约当日乙方提供的证件原件有：</p>
+    <p>${lesseeIds!''} ${lesseeIdsOther!''}</p>
+    <p>3.甲、乙双方同意将上述证件的复印件留存于丙方处。</p>
+
+    <p style="font-weight:bold; margin-top:3px; margin-bottom:10px;">九、甲乙丙三方其他约定</p>
+    <p style="width:690px; height:1px;  margin-bottom:15px; margin-top:5px;">${additionalTerms!''}</p>
+
+    <table class="borded-none" style="position:absolute; left:0; bottom:0;">
+        <tr>
+            <td width="232" style="text-align:left;"><p>甲方：</p>
+                <p>代理人：　</p>
+                <p>联系电话:</p>
+                <p> 　　　　年　　月　　日 </p></td>
+            <td width="232" style=" postiton:relative; text-align:left;"><img src="${imageUrl!''}" width="150px"
+                                                                              height="150px"
+                                                                              style="position:absolute;  bottom:-50px; left:290px;"/>
+                <p>丙方（公章）：</p>
+                <p>经纪人：　</p>
+                <p>联系电话:</p>
+                <p> 　　　　年　　月　　日 </p></td>
+            <td width="232" style="text-align:left;"><p>乙方：</p>
+                <p>代理人：　</p>
+                <p>联系电话:</p>
+                <p> 　　　　年　　月　　日 </p></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

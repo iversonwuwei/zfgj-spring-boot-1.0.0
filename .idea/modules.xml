@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dlfc-zfgj-V1.5.0/dlfc-zfgj.iml" filepath="$PROJECT_DIR$/dlfc-zfgj-V1.5.0/dlfc-zfgj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dlfc-zfgj-V1.5.0/dlfc-zfgj-core/dlfc-zfgj-core.iml" filepath="$PROJECT_DIR$/dlfc-zfgj-V1.5.0/dlfc-zfgj-core/dlfc-zfgj-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dlfc-zfgj-V1.5.0/dlfc-zfgj-sign/dlfc-zfgj-sign.iml" filepath="$PROJECT_DIR$/dlfc-zfgj-V1.5.0/dlfc-zfgj-sign/dlfc-zfgj-sign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dlfc-zfgj-V1.5.0/dlfc-zfgj-web/dlfc-zfgj-web.iml" filepath="$PROJECT_DIR$/dlfc-zfgj-V1.5.0/dlfc-zfgj-web/dlfc-zfgj-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zfgj-contract-spring-boot/zfgj-contract-spring-boot.iml" filepath="$PROJECT_DIR$/zfgj-contract-spring-boot/zfgj-contract-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zfgj-house-spring-boot/zfgj-house-spring-boot.iml" filepath="$PROJECT_DIR$/zfgj-house-spring-boot/zfgj-house-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zfgj-security-mobile-spring-boot/zfgj-security-mobile-spring-boot.iml" filepath="$PROJECT_DIR$/zfgj-security-mobile-spring-boot/zfgj-security-mobile-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zfgj-security-spring-boot/zfgj-security-spring-boot.iml" filepath="$PROJECT_DIR$/zfgj-security-spring-boot/zfgj-security-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zfgj-spring-boot.iml" filepath="$PROJECT_DIR$/zfgj-spring-boot.iml" />
+    </modules>
+  </component>
+</project>

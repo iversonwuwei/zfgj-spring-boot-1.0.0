@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.housecenter.dlfc.framework.starter.web:dlfc-framework-starter-web:0.0.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/starter/web/dlfc-framework-starter-web/0.0.3-SNAPSHOT/dlfc-framework-starter-web-0.0.3-20170516.074819-6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/starter/web/dlfc-framework-starter-web/0.0.3-SNAPSHOT/dlfc-framework-starter-web-0.0.3-20170516.074819-6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../m2/repository/com/housecenter/dlfc/framework/starter/web/dlfc-framework-starter-web/0.0.3-SNAPSHOT/dlfc-framework-starter-web-0.0.3-20170516.074819-6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
