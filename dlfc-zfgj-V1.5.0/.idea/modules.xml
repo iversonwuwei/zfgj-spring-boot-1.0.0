@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dlfc-zfgj.iml" filepath="$PROJECT_DIR$/dlfc-zfgj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dlfc-zfgj-core/dlfc-zfgj-core.iml" filepath="$PROJECT_DIR$/dlfc-zfgj-core/dlfc-zfgj-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dlfc-zfgj-sign/dlfc-zfgj-sign.iml" filepath="$PROJECT_DIR$/dlfc-zfgj-sign/dlfc-zfgj-sign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dlfc-zfgj-web/dlfc-zfgj-web.iml" filepath="$PROJECT_DIR$/dlfc-zfgj-web/dlfc-zfgj-web.iml" />
+    </modules>
+  </component>
+</project>

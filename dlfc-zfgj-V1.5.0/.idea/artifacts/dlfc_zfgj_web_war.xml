@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dlfc-zfgj-web:war">
+    <output-path>$PROJECT_DIR$/dlfc-zfgj-web/target</output-path>
+    <root id="archive" name="dlfc-zfgj.war">
+      <element id="artifact" artifact-name="dlfc-zfgj-web:war exploded" />
+    </root>
+  </artifact>
+</component>

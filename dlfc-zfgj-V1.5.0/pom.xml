@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.housecenter.dlfc</groupId>
+		<artifactId>dlfc</artifactId>
+		<version>0.0.1-RELEASE</version>
+	</parent>
+	<groupId>com.housecenter.dlfc.zfgj</groupId>
+	<artifactId>dlfc-zfgj</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>dlfc-zfgj-core</module>
+		<module>dlfc-zfgj-web</module>
+		<module>dlfc-zfgj-sign</module>
+	</modules>
+	<distributionManagement>
+		<repository>
+			<id>dlfc-release</id>
+			<name>dlfc release Respoitories</name>
+			<url>http://10.32.156.187:9091/nexus/content/repositories/dlfc-release/</url>
+		</repository>
+		<snapshotRepository>
+			<id>dlfc-snapshots</id>
+			<name>dlfc snapshots repo</name>
+			<url>http://10.32.156.187:9091/nexus/content/repositories/dlfc-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<build>
+		<!-- 插件 -->
+		<plugins>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<port>8083</port>
+					<path>/</path>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-clean-plugin</artifactId>
+				<configuration>
+					<filesets>
+						<fileset>
+							<directory>some/relative/path</directory>
+							<includes>
+								<include>**/*.tmp</include>
+								<include>**/*.log</include>
+							</includes>
+							<excludes>
+								<exclude>**/important.log</exclude>
+								<exclude>**/another-important.log</exclude>
+							</excludes>
+							<followSymlinks>false</followSymlinks>
+						</fileset>
+					</filesets>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

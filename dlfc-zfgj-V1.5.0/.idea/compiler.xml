@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dlfc-zfgj-core" />
+        <module name="dlfc-zfgj-sign" />
+        <module name="dlfc-zfgj-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dlfc-zfgj" target="1.5" />
+      <module name="dlfc-zfgj-core" target="1.5" />
+      <module name="dlfc-zfgj-sign" target="1.5" />
+      <module name="dlfc-zfgj-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
